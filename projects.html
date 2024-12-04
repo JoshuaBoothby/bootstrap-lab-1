@@ -12,11 +12,15 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
-    <header>
+  <body class="position-relative">
+    <header class="position-absolute top-0 start-0 end-0 z-3">
+
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Bootstrap Lab</a>
+            <h1>
+                <a class="navbar-brand" href="#">Bootstrap Lab</a>
+
+            </h1>
           <button
             class="navbar-toggler"
             type="button"
@@ -59,15 +63,12 @@
             </ul>
           </div>
         </div>
-      </nav>
-      <div class="container">
-        <div class="row"><!--title invisible to humans-->
-          <div class="col text-center text-white">
-              <h1 class="title">Cards for Projects</h1>
-              <!--the title is currently taking up space and moving the cards down refer to this when adjusting cards position-->
-        </div>
+    </nav>
     </div>
 </header>
+<div style="height: 56px;">
+
+</div>
 <main>
     <div class="container text-center">
         <div class="row">
@@ -94,7 +95,7 @@
             <div class="card" style="width: 18rem">
               <img src="https://picsum.photos/300/200" class="card-img-top" alt="Filler image of Project 2" />
               <div class="card-body">
-                <h2 class="card-title fs-5">Project 2</h2>
+                <h2 class="card-title h5">Project 2</h2>
                 <p class="card-text">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad iste dignissimos perferendis voluptas soluta animi eaque corrupti voluptatum, minima nihil, fuga libero aut, suscipit deserunt eos atque eius quo sapiente!
                 </p>
@@ -181,12 +182,14 @@
         </div>
       </div>
     </main>
+<div style="height: 40px;">
 
-    <footer class="container">
+</div>
+    <footer class="position-absolute bottom-0 end-0 start-0 bg-secondary-subtle text-secondary-emphasis p-2">
       <div class="container">
         <div class="row">
           <div class="col text-center">
-            <p>Copyright &copy;  2024</p>
+            <p class="m-0">Copyright &copy; 2024 Joshua Boothby</p>
           </div>
         </div>
       </div>
